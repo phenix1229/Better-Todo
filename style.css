@@ -45,3 +45,9 @@ li {
     font-size: 2em;
     transition: 2s;
 }
+
+.complete {
+    opacity: 50%;
+    text-decoration: line-through;
+    text-decoration-color: cornflowerblue;
+}

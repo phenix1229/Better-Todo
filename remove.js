@@ -1,8 +1,8 @@
 document.querySelector('.remove-todo').addEventListener('click', function(){
-    const indexBox = document.querySelector('.index-input');
+    const completed = document.querySelector('.complete');
     const todoList = document.querySelector('.todo-list'); 
     const listArr = [];
-    if (indexBox.value !== '' && indexBox.value !== ' '){
+    // if (indexBox.value !== '' && indexBox.value !== ' '){
         document.querySelectorAll('li').forEach(item => {
             listArr.push(item.innerText);
             todoList.removeChild(item);
@@ -10,7 +10,7 @@ document.querySelector('.remove-todo').addEventListener('click', function(){
         listArr.splice(Number(indexBox.value) - 1, 1);
         for (const item of listArr){
             document.querySelector('.todo-list').appendChild(document.createElement('li')).innerText = item;
-        }
+        // }
         indexBox.value = '';
     }   
 })
