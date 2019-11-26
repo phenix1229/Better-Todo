@@ -5,7 +5,7 @@
     grid-template-areas:  
         'jumbotron jumbotron jumbotron'
         '. add-btn .'
-        '. remove-btn .'
+        '. remove-all-btn .'
         '. list .'
 
         ;
@@ -26,8 +26,8 @@ h1 {
     grid-area: add-btn;
 }
 
-#remove-btn {
-    grid-area: remove-btn;
+#remove-all-btn {
+    grid-area: remove-all-btn;
 }
 
 #list {
