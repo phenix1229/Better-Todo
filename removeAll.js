@@ -12,3 +12,4 @@ document.querySelector('.remove-all').addEventListener('click', function(){
         // }
         // indexBox.value = '';  
 })
+

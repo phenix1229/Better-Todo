@@ -5,6 +5,7 @@ document.querySelector('.add-todo').addEventListener('click', function(){
     listArr.push(Object.values(createObject()));
     for (const item of listArr){
         document.querySelector('.todo-list').appendChild(document.createElement('li')).innerText = item.join(' ');
+        markLi();
     }
     inputBox.value = '';
     }

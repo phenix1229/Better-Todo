@@ -1,10 +1,11 @@
 .app {
     display: grid;
     grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 20% 10% 10% 70%;
+    grid-template-rows: 20% 5% 5% 5% 75%;
     grid-template-areas:  
         'jumbotron jumbotron jumbotron'
         '. add-btn .'
+        '. remove-complete-btn .'
         '. remove-all-btn .'
         '. list .'
 
@@ -28,6 +29,10 @@ h1 {
 
 #remove-all-btn {
     grid-area: remove-all-btn;
+}
+
+#remove-complete-btn {
+    grid-area: remove-complete-btn;
 }
 
 #list {
