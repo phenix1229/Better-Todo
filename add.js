@@ -1,12 +1,11 @@
+const listArr = [];
+
 document.querySelector('.add-todo').addEventListener('click', function(){
-    const listArr = [];
     if (inputBox.value !== '' && inputBox.value !== ' '){
-    listArr.push(Object.values(createObject()));
-    for (const item of listArr){
-        document.querySelector('.todo-list').appendChild(document.createElement('li')).innerText = `${item[0]}\n${item.slice(1)}`;
+        listArr.push(Object.values(createObject()));
+        newArrItem = listArr[listArr.length - 1];
+        document.querySelector('.todo-list').appendChild(document.createElement('li')).innerText = `${newArrItem[0]}\n${newArrItem.slice(1).join(' ')}`;
         markLi();
-    }
     inputBox.value = '';
     }
 });
-
