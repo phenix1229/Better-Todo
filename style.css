@@ -24,14 +24,17 @@ h1 {
 
 #add-btn {
     grid-area: add-btn;
+    padding: 5px;
 }
 
 #remove-all-btn {
     grid-area: remove-all-btn;
+    padding: 5px;
 }
 
 #remove-complete-btn {
     grid-area: remove-complete-btn;
+    padding: 5px;
 }
 
 #list {
