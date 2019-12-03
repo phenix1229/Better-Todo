@@ -26,14 +26,14 @@ h1 {
     font-size: 4em;
 }
 
-#add-btn {
+/* #add-btn {
     grid-area: add-btn;
     grid-template-columns: 100%;
     grid-template-rows: 100%;
     grid-template-areas: 'abg';
     padding: 5px;
-    /* align-content: center; */
-}
+    align-content: center;
+} */
 
 #remove-all-btn {
     grid-area: remove-all-btn;
@@ -68,7 +68,5 @@ li {
 }
 
 #add-btn-group {
-    grid-area: abg;
-    height: 100%;
-    width: 100%;
+    grid-area: add-btn;
 }
