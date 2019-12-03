@@ -28,6 +28,9 @@ h1 {
 
 #add-btn {
     grid-area: add-btn;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    grid-template-areas: 'abg';
     padding: 5px;
     align-content: center;
 }
@@ -62,4 +65,8 @@ li {
     opacity: 50%;
     text-decoration: line-through;
     text-decoration-color: cornflowerblue;
+}
+
+#add-btn-group {
+    grid-area: abg;
 }
