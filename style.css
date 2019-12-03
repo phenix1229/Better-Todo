@@ -29,6 +29,7 @@ h1 {
 #add-btn {
     grid-area: add-btn;
     padding: 5px;
+    align-content: center;
 }
 
 #remove-all-btn {
