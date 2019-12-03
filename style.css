@@ -11,6 +11,7 @@
 
 #jumboWrap {
     grid-area: jumbotron;
+    height: 100%;
 }
 
 .jumbotron {
@@ -26,6 +27,8 @@ h1 {
 
 #all-buttons {
     grid-area: all-buttons;
+    height: 100%;
+    width: 100%;
     grid-template-columns: 100%;
     grid-template-rows: 34% 33% 33%;
     grid-template-areas: 
@@ -37,20 +40,19 @@ h1 {
 
 #add-btn {
     grid-area: add-btn;
-    /* grid-template-columns: 100%;
-    grid-template-rows: 100%;
-    grid-template-areas: 'abg';
+    height: 34%%;
     padding: 5px;
-    align-content: center; */
 }
 
 #remove-all-btn {
     grid-area: remove-all-btn;
+    height: 33%;
     padding: 5px;
 }
 
 #remove-complete-btn {
     grid-area: remove-complete-btn;
+    height: 33%;
     padding: 5px;
 }
 
