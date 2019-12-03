@@ -1,10 +1,12 @@
 .app {
     display: grid;
-    grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 20% 15% 65%;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 2fr 1fr 3fr;
     grid-template-areas:  
         'jumbotron jumbotron jumbotron'
         '. all-buttons .'
+        '. list .'
+        '. list .'
         '. list .'
     ;
 }
@@ -27,10 +29,10 @@ h1 {
 
 #all-buttons {
     grid-area: all-buttons;
-    height: 100%;
-    width: 100%;
-    grid-template-columns: 100%;
-    grid-template-rows: 34% 33% 33%;
+    /* height: 100%;
+    width: 100%; */
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
         'add-btn'
         'remove-complete-btn'
@@ -40,19 +42,19 @@ h1 {
 
 #add-btn {
     grid-area: add-btn;
-    height: 34%%;
+    /* height: 34%; */
     padding: 5px;
 }
 
 #remove-all-btn {
     grid-area: remove-all-btn;
-    height: 33%;
+    /* height: 33%; */
     padding: 5px;
 }
 
 #remove-complete-btn {
     grid-area: remove-complete-btn;
-    height: 33%;
+    /* height: 33%; */
     padding: 5px;
 }
 
