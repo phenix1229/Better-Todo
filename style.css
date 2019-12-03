@@ -6,9 +6,6 @@
         'jumbotron jumbotron jumbotron'
         '. all-buttons .'
         '. list .'
-        /* '. list .'
-        '. list .'
-        '. list .' */
     ;
 }
 
@@ -18,7 +15,6 @@
 }
 
 .jumbotron {
-    /* grid-area: jumbotron; */
     background: rgb(2,0,36);
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(36,103,194,0.86) 49%, rgba(0,212,255,1) 100%); 
     text-align: center;
@@ -30,8 +26,6 @@ h1 {
 
 #all-buttons {
     grid-area: all-buttons;
-    /* height: 100%;
-    width: 100%; */
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
@@ -43,19 +37,16 @@ h1 {
 
 #add-btn {
     grid-area: add-btn;
-    /* height: 34%; */
     padding: 5px;
 }
 
 #remove-all-btn {
     grid-area: remove-all-btn;
-    /* height: 33%; */
     padding: 5px;
 }
 
 #remove-complete-btn {
     grid-area: remove-complete-btn;
-    /* height: 33%; */
     padding: 5px;
 }
 
